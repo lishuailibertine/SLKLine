@@ -1,0 +1,20 @@
+//
+//  SLCore-Prefix.pch
+//  练习core
+//
+//  Created by 黄亚萍 on 16/6/13.
+//  Copyright (c) 2016年 hw. All rights reserved.
+//
+
+#ifndef __core_SLCore_Prefix_pch
+#define __core_SLCore_Prefix_pch
+
+
+#define SLFloatPrice 0.20f  //距离相差最大最小值接近的浮动值
+#define SLKLineHigh  240.0f // 区域y轴的高度
+#define SLAearWrite  20.f   //整个区域两边的留白
+#define SLCandleWidth 10.f  //蜡烛所在的父试图的宽度
+#define SLNumCandle   32     //竖屏蜡烛的个数
+
+#define SLLine_Clearance 2.0f   // 蜡烛与父试图两边的留白
+#endif
